@@ -9,7 +9,7 @@ from typing import List
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-BASE_DIR = Path(__file__).resolve().parents[2]
+BASE_DIR = Path(__file__).resolve().parent
 
 
 class Settings(BaseSettings):
